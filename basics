@@ -15,3 +15,8 @@ It keeps checking the task queue, picks up callbacks when async operations finis
 
 ✅ Thread Pool → Handles heavy or blocking tasks (like file system operations, DNS lookups, crypto).
 These tasks are offloaded to background worker threads managed by Libuv, so the main event loop stays free to keep processing other requests.
+
+---
+
+the event loop tasks;= the input out put file system,netwrokd https request,timeers.
+the thread pool -> dns looks ups ,image and the vedio precessing, and the file oprtaions ,compression of files
