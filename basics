@@ -1,0 +1,9 @@
+Asynchronous I/O (Non‑Blocking)
+
+The program does not wait for the I/O operation to finish.
+
+Instead, it delegates the task to the system (via Libuv’s event loop/thread pool).
+
+Meanwhile, the main thread continues executing other code.
+
+When the I/O task completes, a callback/promise is triggered to handle the result.
